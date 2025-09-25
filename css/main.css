@@ -1,4 +1,14 @@
 /* Header */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 .header {
     border: 1px dotted red;
@@ -30,7 +40,9 @@
 
 /* Main */
 
-
+main {
+    flex-grow: 1;
+}
 
 /* Footer */
 
