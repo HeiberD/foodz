@@ -1,4 +1,17 @@
-/* Header */
+
+
+/* Variables globales */
+:root {
+    --over-font-size:62.5%;
+    --Islamic-Green: #04B90B;
+    --Slate-Gray: #777E90;
+}
+
+html {
+    font-size: var(--over-font-size);
+}
+
+
 html,
 body {
     height: 100%;
@@ -14,6 +27,7 @@ h1 span {
     color: #04B90B;
 }
 
+/* Header */
 .header {
     border: 1px dotted red;
 }
@@ -58,7 +72,7 @@ h1 span {
 }
 
 .btn--ligth-green {
-    background-color: #04B90B;
+    background-color: var(--Islamic-Green);
     color: #FFFFFF;
     text-transform: uppercase;
     border-radius: .2rem;
