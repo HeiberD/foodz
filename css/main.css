@@ -128,6 +128,10 @@ main {
 }
 
 /* Footer */
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+}
 
 .widget {
     margin: 4rem;
@@ -142,6 +146,7 @@ details {
   border: 1px solid #aaaaaa;
   border-radius: 4px;
   padding: 0.5em 0.5em 0;
+  flex: 1;
 }
 
 summary {
@@ -186,7 +191,7 @@ details[open] summary {
 
     .footer-container {
         display: flex;
-        gap: 4 rem;
+        gap: 4rem;
     }
 
     .widget-left {
